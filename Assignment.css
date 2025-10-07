@@ -1,0 +1,56 @@
+/*Assignment style */
+
+body {
+  margin: 0;
+  background-color: #f7ebff;
+  font-family: 'Times New Roman', Times, serif;
+  color: #733c66;
+}
+
+.navbar {
+  background-color: #733c66;
+  overflow: hidden;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.section {
+  padding: 80px 20px;
+  margin-top: 40px;
+  padding-bottom: 100px;
+}
+
+
+img {
+  margin-bottom: 20px;
+  
+}
+
+h2 {
+  color: #4a2040;
+  border-bottom: 2px solid #4a2040;
+  padding-bottom: 5px;
+}
+
+h1 {
+  color: #4a2040;
+  padding-bottom: 30px;
+}
+
+/* Make it stack on small screens */
+@media (max-width: 700px) {
+  body {
+    flex-direction: column;
+  }
+}
+
