@@ -56,12 +56,12 @@ h1 {
 
 }
 
-/* Make it stack on small screens */
 @media (max-width: 768px) {
   body {
     flex-direction: column;
   }
 }
+
 
 
 
